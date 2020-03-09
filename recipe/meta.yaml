@@ -1,17 +1,17 @@
 {% set name = "mkdocs-macros-plugin" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.4" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: ea435a920a58ac9f819ace59fa4efc0887b24ba1cae14e58d3294d1edf80fc0f
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 178162e233bf9833deda100209e0c5bf5aee8e4dca2962cdb3ef29e969c7e382
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -32,11 +32,11 @@ test:
     - macros
 
 about:
-  home: "https://github.com/fralau/mkdocs_macros_plugin"
+  home: https://github.com/fralau/mkdocs_macros_plugin
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: "Unleash the power of MkDocs with macros and variables"
+  summary: Unleash the power of MkDocs with macros and variables
 
 extra:
   recipe-maintainers:
