@@ -30,12 +30,16 @@ requirements:
 test:
   imports:
     - macros
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/fralau/mkdocs_macros_plugin
   license: MIT
   license_family: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
   summary: Unleash the power of MkDocs with macros and variables
 
 extra:
