@@ -18,10 +18,10 @@ requirements:
   host:
     - pip
     - python >=3.5
-    - setuptools
   run:
     - jinja2
     - mkdocs >=0.17
+    - mkdocs-material
     - python >=3.5
     - pyyaml
     - repackage
