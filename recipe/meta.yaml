@@ -1,5 +1,5 @@
 {% set name = "mkdocs-macros-plugin" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 178162e233bf9833deda100209e0c5bf5aee8e4dca2962cdb3ef29e969c7e382
+  sha256: 066980a1cd68abbce6f8c8e1c606c92498c15410b03319a4373bc90b6a71479f
 
 build:
   number: 0
@@ -18,10 +18,10 @@ requirements:
   host:
     - pip
     - python >=3.5
-    - setuptools
   run:
     - jinja2
     - mkdocs >=0.17
+    - mkdocs-material
     - python >=3.5
     - pyyaml
     - repackage
@@ -30,10 +30,6 @@ requirements:
 test:
   imports:
     - macros
-  requires:
-    - pip
-  commands:
-    - pip check
 
 about:
   home: https://github.com/fralau/mkdocs_macros_plugin
