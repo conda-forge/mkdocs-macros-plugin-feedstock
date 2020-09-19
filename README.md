@@ -5,7 +5,7 @@ Home: https://github.com/fralau/mkdocs_macros_plugin
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Unleash the power of MkDocs with macros and variables
 
