@@ -5,11 +5,9 @@ Home: https://github.com/fralau/mkdocs_macros_plugin
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-macros-plugin-feedstock/blob/master/LICENSE.txt)
 
 Summary: Unleash the power of MkDocs with macros and variables
-
-
 
 Current build status
 ====================
