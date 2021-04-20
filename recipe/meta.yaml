@@ -21,10 +21,10 @@ requirements:
   run:
     - jinja2
     - mkdocs >=0.17
-    - mkdocs-material
+    - mkdocs-material >=6.2
     - python >=3.5
+    - python-dateutil
     - pyyaml
-    - repackage
     - termcolor
 
 test:
