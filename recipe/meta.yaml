@@ -29,7 +29,7 @@ requirements:
 
 test:
   imports:
-    - macros
+    - mkdocs_macros
 
 about:
   home: https://github.com/fralau/mkdocs_macros_plugin
