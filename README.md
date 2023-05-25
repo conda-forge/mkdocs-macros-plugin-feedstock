@@ -1,11 +1,11 @@
-About mkdocs-macros-plugin
-==========================
+About mkdocs-macros-plugin-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-macros-plugin-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/fralau/mkdocs_macros_plugin
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-macros-plugin-feedstock/blob/main/LICENSE.txt)
 
 Summary: Unleash the power of MkDocs with macros and variables
 
