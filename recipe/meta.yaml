@@ -1,5 +1,5 @@
 {% set name = "mkdocs-macros-plugin" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b10cbc1cd4d4a127eea9f8ee3cc57f5aa91b2a1d44e0f02249d7910a43b975a1
+  sha256: 70687faff5c6c3a747a401b9c95954ac11421ce4194250eece33316174c3106a
 
 build:
   number: 0
