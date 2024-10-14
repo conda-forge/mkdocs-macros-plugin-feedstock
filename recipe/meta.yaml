@@ -17,15 +17,19 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - setuptools
+    - python >=3.8
   run:
-    - jinja2
+    - python >=3.8
     - mkdocs >=0.17
-    - mkdocs-material >=6.2
-    - python >=3.5
+    - hjson
+    - jinja2
+    - packaging
+    - pathspec
     - python-dateutil
-    - pyyaml
+    - super-collections
     - termcolor
+    - pyyaml
 
 test:
   imports:
