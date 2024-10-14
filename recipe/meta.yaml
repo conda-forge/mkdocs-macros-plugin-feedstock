@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - mkdocs >=0.17
-    - hjson
+    - hjson-py
     - jinja2
     - packaging
     - pathspec
