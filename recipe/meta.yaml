@@ -15,17 +15,21 @@ build:
   noarch: python
 
 requirements:
-  host:
-    - pip
-    - python >=3.5
-  run:
-    - jinja2
-    - mkdocs >=0.17
-    - mkdocs-material >=6.2
-    - python >=3.5
-    - python-dateutil
-    - pyyaml
-    - termcolor
+   host:
+     - pip
+     - setuptools
+     - python >=3.8
+   run:
+     - python >=3.8
+     - mkdocs >=0.17
+     - hjson-py
+     - jinja2
+     - packaging
+     - pathspec
+     - python-dateutil
+     - super-collections
+     - termcolor
+     - pyyaml
 
 test:
   imports:
