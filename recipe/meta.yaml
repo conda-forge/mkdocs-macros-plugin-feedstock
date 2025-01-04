@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: 17c7fd1a49b94defcdb502fd453d17a1e730f8836523379d21292eb2be4cb523
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
@@ -18,9 +18,9 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.8
+    - python {{ python_min }}
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - mkdocs >=0.17
     - hjson-py
     - jinja2
@@ -32,6 +32,8 @@ requirements:
     - pyyaml
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - mkdocs_macros
 
